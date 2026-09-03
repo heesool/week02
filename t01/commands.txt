@@ -1,0 +1,17 @@
+Script started on 2026-09-03 14:58:12+08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="96" LINES="34"]
+bash: warning: setlocale: LC_ALL: cannot change locale (CN.UTF-8)
+[?2004h]0;js@js-VirtualBox: ~/week02/t01[01;32mjs@js-VirtualBox[00m:[01;34m~/week02/t01[00m$ git pushremote -v[5Ppush[Kgit push[K[7mtouch -- -myfile[27mtouch -- -myfile
+[?2004l[?2004h]0;js@js-VirtualBox: ~/week02/t01[01;32mjs@js-VirtualBox[00m:[01;34m~/week02/t01[00m$ touch -- -myfile[8Pgit pushremote -v[5Ppushtouch -- -myfile[Kls -l
+[?2004ltotal 0
+-rw-rw-r-- 1 js js 0 Sep  3 14:58 -myfile
+-rw-rw-r-- 1 js js 0 Sep  3 14:58 commands.txt
+[?2004h]0;js@js-VirtualBox: ~/week02/t01[01;32mjs@js-VirtualBox[00m:[01;34m~/week02/t01[00m$ ls -ltouch -- -myfile[8Pgit pushtouch -- -myfilels -l[K[K[7mrm ./-myfile[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm ./-myfile
+[A
+[?2004l[?2004h]0;js@js-VirtualBox: ~/week02/t01[01;32mjs@js-VirtualBox[00m:[01;34m~/week02/t01[00m$ rm ./-myfile[7Pls -l
+[?2004ltotal 0
+-rw-rw-r-- 1 js js 0 Sep  3 14:58 commands.txt
+[?2004h]0;js@js-VirtualBox: ~/week02/t01[01;32mjs@js-VirtualBox[00m:[01;34m~/week02/t01[00m$ exit
+[?2004lexit
+
+Script done on 2026-09-03 14:59:32+08:00 [COMMAND_EXIT_CODE="0"]
