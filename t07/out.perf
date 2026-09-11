@@ -1,0 +1,1191 @@
+slow    6385 70568.504081:     250000 task-clock:ppp: 
+	    7557ce411e30 handle_intel+0x30 (inlined)
+	    7557ce412f56 dl_init_cacheinfo+0x976 (inlined)
+	    7557ce412f56 init_cpu_features+0x976 (inlined)
+	    7557ce417efd _dl_sysdep_start+0x3d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+	    7557ce41975e _dl_start_final+0x58e (inlined)
+	    7557ce41975e _dl_start+0x58e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+	    7557ce418548 _dl_start_user+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+
+slow    6385 70568.504394:     250000 task-clock:ppp: 
+	    7557ce411e30 handle_intel+0x30 (inlined)
+	    7557ce412fcd dl_init_cacheinfo+0x9ed (inlined)
+	    7557ce412fcd init_cpu_features+0x9ed (inlined)
+	    7557ce417efd _dl_sysdep_start+0x3d (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+	    7557ce41975e _dl_start_final+0x58e (inlined)
+	    7557ce41975e _dl_start+0x58e (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+	    7557ce418548 _dl_start_user+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+
+slow    6385 70568.505046:     250000 task-clock:ppp: 
+	    7557ce37134f __sin_fma+0x7f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70568.505103:     250000 task-clock:ppp: 
+	    7557ce37134f __sin_fma+0x7f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70568.505427:     250000 task-clock:ppp: 
+	    7557ce3712f1 libc_feholdsetround_sse_ctx+0x21 (inlined)
+	    7557ce3712f1 __sin_fma+0x21 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.505691:     250000 task-clock:ppp: 
+	    7557ce3714df do_cos+0x20f (inlined)
+	    7557ce3714df do_sincos+0x20f (inlined)
+	    7557ce3714df __sin_fma+0x20f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.506055:     250000 task-clock:ppp: 
+	    7557ce371af1 libc_feholdsetround_sse_ctx+0x21 (inlined)
+	    7557ce371af1 __cos_fma+0x21 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.506197:     250000 task-clock:ppp: 
+	ffffffff9228447a [unknown] ([unknown])
+	ffffffff92283337 [unknown] ([unknown])
+	ffffffff90c00f8b [unknown] ([unknown])
+	    7557ce371d5f reduce_sincos+0x28f (inlined)
+	    7557ce371d5f __cos_fma+0x28f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.506430:     250000 task-clock:ppp: 
+	    7557ce3714c4 reduce_sincos+0x1f4 (inlined)
+	    7557ce3714c4 __sin_fma+0x1f4 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.508440:     250000 task-clock:ppp: 
+	ffffffff9228447a [unknown] ([unknown])
+	ffffffff92283337 [unknown] ([unknown])
+	ffffffff90c00f8b [unknown] ([unknown])
+	    7557ce371517 do_sin+0x247 (inlined)
+	    7557ce371517 do_sincos+0x247 (inlined)
+	    7557ce371517 __sin_fma+0x247 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.508885:     250000 task-clock:ppp: 
+	    7557ce371fd1 do_sincos+0x501 (inlined)
+	    7557ce371fd1 __cos_fma+0x501 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.509005:     250000 task-clock:ppp: 
+	    7557ce37217d do_sin+0x6ad (inlined)
+	    7557ce37217d do_sincos+0x6ad (inlined)
+	    7557ce37217d __cos_fma+0x6ad (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.509270:     250000 task-clock:ppp: 
+	    7557ce37182d do_cos+0x55d (inlined)
+	    7557ce37182d do_sincos+0x55d (inlined)
+	    7557ce37182d __sin_fma+0x55d (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.509481:     250000 task-clock:ppp: 
+	    7557ce371b0a libc_feholdsetround_sse_ctx+0x3a (inlined)
+	    7557ce371b0a __cos_fma+0x3a (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.510420:     250000 task-clock:ppp: 
+	    7557ce371f89 do_cos+0x4b9 (inlined)
+	    7557ce371f89 do_sincos+0x4b9 (inlined)
+	    7557ce371f89 __cos_fma+0x4b9 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.510607:     250000 task-clock:ppp: 
+	    7557ce37156d do_sin+0x29d (inlined)
+	    7557ce37156d do_sincos+0x29d (inlined)
+	    7557ce37156d __sin_fma+0x29d (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.510750:     250000 task-clock:ppp: 
+	    7557ce371ea0 do_sin+0x3d0 (inlined)
+	    7557ce371ea0 do_sincos+0x3d0 (inlined)
+	    7557ce371ea0 __cos_fma+0x3d0 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.511423:     250000 task-clock:ppp: 
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.511509:     250000 task-clock:ppp: 
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.527679:     250000 task-clock:ppp: 
+	    7557ce371807 do_cos+0x537 (inlined)
+	    7557ce371807 do_sincos+0x537 (inlined)
+	    7557ce371807 __sin_fma+0x537 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.527724:     250000 task-clock:ppp: 
+	    7557ce371807 do_cos+0x537 (inlined)
+	    7557ce371807 do_sincos+0x537 (inlined)
+	    7557ce371807 __sin_fma+0x537 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.544378:     250000 task-clock:ppp: 
+	    7557ce371af9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce371af9 __cos_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.560147:     250000 task-clock:ppp: 
+	    7557ce3717ba do_cos+0x4ea (inlined)
+	    7557ce3717ba do_sincos+0x4ea (inlined)
+	    7557ce3717ba __sin_fma+0x4ea (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.560449:     250000 task-clock:ppp: 
+	    7557ce3715ba do_sin+0x2ea (inlined)
+	    7557ce3715ba do_sincos+0x2ea (inlined)
+	    7557ce3715ba __sin_fma+0x2ea (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.576351:     250000 task-clock:ppp: 
+	    7557ce3715ca do_sincos+0x2fa (inlined)
+	    7557ce3715ca __sin_fma+0x2fa (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.577344:     250000 task-clock:ppp: 
+	    7557ce371da2 reduce_sincos+0x2d2 (inlined)
+	    7557ce371da2 __cos_fma+0x2d2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.578373:     250000 task-clock:ppp: 
+	    7557ce371d48 __cos_fma+0x278 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.579303:     250000 task-clock:ppp: 
+	    7557ce37182d do_cos+0x55d (inlined)
+	    7557ce37182d do_sincos+0x55d (inlined)
+	    7557ce37182d __sin_fma+0x55d (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.579685:     250000 task-clock:ppp: 
+	    7557ce371831 do_sincos+0x561 (inlined)
+	    7557ce371831 __sin_fma+0x561 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.595044:     250000 task-clock:ppp: 
+	    7557ce371d81 reduce_sincos+0x2b1 (inlined)
+	    7557ce371d81 __cos_fma+0x2b1 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.610273:     250000 task-clock:ppp: 
+	    624e97f4c090 sin@plt+0x0 (/home/js/week02/t07/slow)
+
+slow    6385 70568.626003:     250000 task-clock:ppp: 
+	    7557ce3715ba do_sin+0x2ea (inlined)
+	    7557ce3715ba do_sincos+0x2ea (inlined)
+	    7557ce3715ba __sin_fma+0x2ea (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.641088:     250000 task-clock:ppp: 
+	    7557ce37143d libc_feresetround_sse_ctx+0x16d (inlined)
+	    7557ce37143d __sin_fma+0x16d (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.656370:     250000 task-clock:ppp: 
+	    7557ce3715b4 do_sin+0x2e4 (inlined)
+	    7557ce3715b4 do_sincos+0x2e4 (inlined)
+	    7557ce3715b4 __sin_fma+0x2e4 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.671151:     250000 task-clock:ppp: 
+	    7557ce3715c2 do_sin+0x2f2 (inlined)
+	    7557ce3715c2 do_sincos+0x2f2 (inlined)
+	    7557ce3715c2 __sin_fma+0x2f2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.685812:     250000 task-clock:ppp: 
+	    7557ce3715ca do_sincos+0x2fa (inlined)
+	    7557ce3715ca __sin_fma+0x2fa (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.701099:     250000 task-clock:ppp: 
+	    7557ce371d68 reduce_sincos+0x298 (inlined)
+	    7557ce371d68 __cos_fma+0x298 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.715790:     250000 task-clock:ppp: 
+	    7557ce371f73 do_cos+0x4a3 (inlined)
+	    7557ce371f73 do_sincos+0x4a3 (inlined)
+	    7557ce371f73 __cos_fma+0x4a3 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70568.730048:     250000 task-clock:ppp: 
+	    7557ce371521 do_sin+0x251 (inlined)
+	    7557ce371521 do_sincos+0x251 (inlined)
+	    7557ce371521 __sin_fma+0x251 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.744510:     250000 task-clock:ppp: 
+	    7557ce3715b4 do_sin+0x2e4 (inlined)
+	    7557ce3715b4 do_sincos+0x2e4 (inlined)
+	    7557ce3715b4 __sin_fma+0x2e4 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.759678:     250000 task-clock:ppp: 
+	    7557ce37151d do_sin+0x24d (inlined)
+	    7557ce37151d do_sincos+0x24d (inlined)
+	    7557ce37151d __sin_fma+0x24d (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.774283:     250000 task-clock:ppp: 
+	    7557ce3715d3 do_sincos+0x303 (inlined)
+	    7557ce3715d3 __sin_fma+0x303 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70568.788031:     250000 task-clock:ppp: 
+	    624e97f4c090 sin@plt+0x0 (/home/js/week02/t07/slow)
+
+slow    6385 70568.802344:     250000 task-clock:ppp: 
+	    7557ce3715ba do_sin+0x2ea (inlined)
+	    7557ce3715ba do_sincos+0x2ea (inlined)
+	    7557ce3715ba __sin_fma+0x2ea (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.048637:     250000 task-clock:ppp: 
+	    7557ce3712dd __sin_fma+0xd (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.048715:     250000 task-clock:ppp: 
+	ffffffff90f98699 [unknown] ([unknown])
+	ffffffff90f98a9e [unknown] ([unknown])
+	ffffffff90f98eae [unknown] ([unknown])
+	ffffffff922833fc [unknown] ([unknown])
+	ffffffff90c00f0b [unknown] ([unknown])
+	    7557ce3712dd __sin_fma+0xd (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.049363:     250000 task-clock:ppp: 
+	    7557ce371dc2 reduce_sincos+0x2f2 (inlined)
+	    7557ce371dc2 __cos_fma+0x2f2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.050427:     250000 task-clock:ppp: 
+	    7557ce371f80 do_cos+0x4b0 (inlined)
+	    7557ce371f80 do_sincos+0x4b0 (inlined)
+	    7557ce371f80 __cos_fma+0x4b0 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.050562:     250000 task-clock:ppp: 
+	    7557ce371954 do_sin+0x684 (inlined)
+	    7557ce371954 do_sincos+0x684 (inlined)
+	    7557ce371954 __sin_fma+0x684 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.050744:     250000 task-clock:ppp: 
+	    7557ce371eac do_sincos+0x3dc (inlined)
+	    7557ce371eac __cos_fma+0x3dc (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.051421:     250000 task-clock:ppp: 
+	    7557ce371d48 __cos_fma+0x278 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.052433:     250000 task-clock:ppp: 
+	    7557ce37155c do_sin+0x28c (inlined)
+	    7557ce37155c do_sincos+0x28c (inlined)
+	    7557ce37155c __sin_fma+0x28c (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.052498:     250000 task-clock:ppp: 
+	    7557ce371b0a libc_feholdsetround_sse_ctx+0x3a (inlined)
+	    7557ce371b0a __cos_fma+0x3a (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.073037:     250000 task-clock:ppp: 
+	    7557ce371af1 libc_feholdsetround_sse_ctx+0x21 (inlined)
+	    7557ce371af1 __cos_fma+0x21 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.093706:     250000 task-clock:ppp: 
+	    7557ce371ea0 do_sin+0x3d0 (inlined)
+	    7557ce371ea0 do_sincos+0x3d0 (inlined)
+	    7557ce371ea0 __cos_fma+0x3d0 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.114329:     250000 task-clock:ppp: 
+	    7557ce37134f __sin_fma+0x7f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70569.115260:     250000 task-clock:ppp: 
+	    7557ce371ea0 do_sin+0x3d0 (inlined)
+	    7557ce371ea0 do_sincos+0x3d0 (inlined)
+	    7557ce371ea0 __cos_fma+0x3d0 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.142267:     250000 task-clock:ppp: 
+	    7557ce371b2b __cos_fma+0x5b (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.147124:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70569.151558:     250000 task-clock:ppp: 
+	    7557ce371ea0 do_sin+0x3d0 (inlined)
+	    7557ce371ea0 do_sincos+0x3d0 (inlined)
+	    7557ce371ea0 __cos_fma+0x3d0 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.156460:     250000 task-clock:ppp: 
+	    624e97f4c090 sin@plt+0x0 (/home/js/week02/t07/slow)
+
+slow    6385 70569.160978:     250000 task-clock:ppp: 
+	    7557ce371572 do_sin+0x2a2 (inlined)
+	    7557ce371572 do_sincos+0x2a2 (inlined)
+	    7557ce371572 __sin_fma+0x2a2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.164886:     250000 task-clock:ppp: 
+	    7557ce371eac do_sincos+0x3dc (inlined)
+	    7557ce371eac __cos_fma+0x3dc (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.169331:     250000 task-clock:ppp: 
+	    7557ce371ea4 do_sin+0x3d4 (inlined)
+	    7557ce371ea4 do_sincos+0x3d4 (inlined)
+	    7557ce371ea4 __cos_fma+0x3d4 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.172818:     250000 task-clock:ppp: 
+	    7557ce371da6 reduce_sincos+0x2d6 (inlined)
+	    7557ce371da6 __cos_fma+0x2d6 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.176701:     250000 task-clock:ppp: 
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.180619:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70569.184544:     250000 task-clock:ppp: 
+	    7557ce371beb libc_feresetround_sse_ctx+0x11b (inlined)
+	    7557ce371beb __cos_fma+0x11b (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.188451:     250000 task-clock:ppp: 
+	    7557ce371572 do_sin+0x2a2 (inlined)
+	    7557ce371572 do_sincos+0x2a2 (inlined)
+	    7557ce371572 __sin_fma+0x2a2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.191926:     250000 task-clock:ppp: 
+	    7557ce371f84 do_cos+0x4b4 (inlined)
+	    7557ce371f84 do_sincos+0x4b4 (inlined)
+	    7557ce371f84 __cos_fma+0x4b4 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.194836:     250000 task-clock:ppp: 
+	    7557ce371add __cos_fma+0xd (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.197780:     250000 task-clock:ppp: 
+	    7557ce371de3 do_sin+0x313 (inlined)
+	    7557ce371de3 do_sincos+0x313 (inlined)
+	    7557ce371de3 __cos_fma+0x313 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.201265:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70569.204222:     250000 task-clock:ppp: 
+	    7557ce3714df do_cos+0x20f (inlined)
+	    7557ce3714df do_sincos+0x20f (inlined)
+	    7557ce3714df __sin_fma+0x20f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.207003:     250000 task-clock:ppp: 
+	    7557ce371f73 do_cos+0x4a3 (inlined)
+	    7557ce371f73 do_sincos+0x4a3 (inlined)
+	    7557ce371f73 __cos_fma+0x4a3 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.210603:     250000 task-clock:ppp: 
+	    7557ce371f6f do_cos+0x49f (inlined)
+	    7557ce371f6f do_sincos+0x49f (inlined)
+	    7557ce371f6f __cos_fma+0x49f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.213498:     250000 task-clock:ppp: 
+	    7557ce371dab reduce_sincos+0x2db (inlined)
+	    7557ce371dab __cos_fma+0x2db (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.216443:     250000 task-clock:ppp: 
+	    7557ce371f28 do_cos+0x458 (inlined)
+	    7557ce371f28 do_sincos+0x458 (inlined)
+	    7557ce371f28 __cos_fma+0x458 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.219353:     250000 task-clock:ppp: 
+	    7557ce371b0a libc_feholdsetround_sse_ctx+0x3a (inlined)
+	    7557ce371b0a __cos_fma+0x3a (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.221836:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70569.224548:     250000 task-clock:ppp: 
+	    7557ce3717aa do_cos+0x4da (inlined)
+	    7557ce3717aa do_sincos+0x4da (inlined)
+	    7557ce3717aa __sin_fma+0x4da (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.227644:     250000 task-clock:ppp: 
+	    624e97f4c070 cos@plt+0x0 (/home/js/week02/t07/slow)
+
+slow    6385 70569.229567:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70569.232083:     250000 task-clock:ppp: 
+	    7557ce371f80 do_cos+0x4b0 (inlined)
+	    7557ce371f80 do_sincos+0x4b0 (inlined)
+	    7557ce371f80 __cos_fma+0x4b0 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.234090:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70569.235996:     250000 task-clock:ppp: 
+	    7557ce371beb libc_feresetround_sse_ctx+0x11b (inlined)
+	    7557ce371beb __cos_fma+0x11b (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.237955:     250000 task-clock:ppp: 
+	    7557ce371f89 do_cos+0x4b9 (inlined)
+	    7557ce371f89 do_sincos+0x4b9 (inlined)
+	    7557ce371f89 __cos_fma+0x4b9 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.239917:     250000 task-clock:ppp: 
+	    7557ce3717e9 do_cos+0x519 (inlined)
+	    7557ce3717e9 do_sincos+0x519 (inlined)
+	    7557ce3717e9 __sin_fma+0x519 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.241418:     250000 task-clock:ppp: 
+	    7557ce371e76 do_sin+0x3a6 (inlined)
+	    7557ce371e76 do_sincos+0x3a6 (inlined)
+	    7557ce371e76 __cos_fma+0x3a6 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.243357:     250000 task-clock:ppp: 
+	    7557ce371b0a libc_feholdsetround_sse_ctx+0x3a (inlined)
+	    7557ce371b0a __cos_fma+0x3a (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.245315:     250000 task-clock:ppp: 
+	    7557ce371992 do_sin+0x6c2 (inlined)
+	    7557ce371992 do_sincos+0x6c2 (inlined)
+	    7557ce371992 __sin_fma+0x6c2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.246285:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70569.247273:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70569.248292:     250000 task-clock:ppp: 
+	    7557ce371e58 do_sin+0x388 (inlined)
+	    7557ce371e58 do_sincos+0x388 (inlined)
+	    7557ce371e58 __cos_fma+0x388 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.249247:     250000 task-clock:ppp: 
+	    7557ce371e9a do_sin+0x3ca (inlined)
+	    7557ce371e9a do_sincos+0x3ca (inlined)
+	    7557ce371e9a __cos_fma+0x3ca (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.250257:     250000 task-clock:ppp: 
+	    7557ce371d68 reduce_sincos+0x298 (inlined)
+	    7557ce371d68 __cos_fma+0x298 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.251728:     250000 task-clock:ppp: 
+	    7557ce371f4a do_cos+0x47a (inlined)
+	    7557ce371f4a do_sincos+0x47a (inlined)
+	    7557ce371f4a __cos_fma+0x47a (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.252608:     250000 task-clock:ppp: 
+	    7557ce371dab reduce_sincos+0x2db (inlined)
+	    7557ce371dab __cos_fma+0x2db (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.253703:     250000 task-clock:ppp: 
+	    7557ce371d81 reduce_sincos+0x2b1 (inlined)
+	    7557ce371d81 __cos_fma+0x2b1 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.254664:     250000 task-clock:ppp: 
+	    7557ce371af9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce371af9 __cos_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.255638:     250000 task-clock:ppp: 
+	    624e97f4c10a slow_computation+0x6a (inlined)
+	    624e97f4c10a main+0x6a (/home/js/week02/t07/slow)
+
+slow    6385 70569.256705:     250000 task-clock:ppp: 
+	    7557ce371ad5 __cos_fma+0x5 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70569.256782:     250000 task-clock:ppp: 
+	    7557ce371ad5 __cos_fma+0x5 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70569.257112:     250000 task-clock:ppp: 
+	    7557ce371572 do_sin+0x2a2 (inlined)
+	    7557ce371572 do_sincos+0x2a2 (inlined)
+	    7557ce371572 __sin_fma+0x2a2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.257408:     250000 task-clock:ppp: 
+	    624e97f4c070 cos@plt+0x0 (/home/js/week02/t07/slow)
+
+slow    6385 70569.257672:     250000 task-clock:ppp: 
+	    7557ce371460 __sin_fma+0x190 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.258515:     250000 task-clock:ppp: 
+	    7557ce3712f9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce3712f9 __sin_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.258579:     250000 task-clock:ppp: 
+	    7557ce3712f9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce3712f9 __sin_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.258803:     250000 task-clock:ppp: 
+	    7557ce37149c reduce_sincos+0x1cc (inlined)
+	    7557ce37149c __sin_fma+0x1cc (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.260120:     250000 task-clock:ppp: 
+	    7557ce371f89 do_cos+0x4b9 (inlined)
+	    7557ce371f89 do_sincos+0x4b9 (inlined)
+	    7557ce371f89 __cos_fma+0x4b9 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.260646:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70569.282537:     250000 task-clock:ppp: 
+	    7557ce371fc2 do_cos+0x4f2 (inlined)
+	    7557ce371fc2 do_sincos+0x4f2 (inlined)
+	    7557ce371fc2 __cos_fma+0x4f2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.282850:     250000 task-clock:ppp: 
+	    7557ce371594 do_sin+0x2c4 (inlined)
+	    7557ce371594 do_sincos+0x2c4 (inlined)
+	    7557ce371594 __sin_fma+0x2c4 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.303249:     250000 task-clock:ppp: 
+	    7557ce371c1f __cos_fma+0x14f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.323825:     250000 task-clock:ppp: 
+	    7557ce371b2b __cos_fma+0x5b (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.344535:     250000 task-clock:ppp: 
+	    7557ce371e7f do_sin+0x3af (inlined)
+	    7557ce371e7f do_sincos+0x3af (inlined)
+	    7557ce371e7f __cos_fma+0x3af (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.344580:     250000 task-clock:ppp: 
+	    7557ce371e7f do_sin+0x3af (inlined)
+	    7557ce371e7f do_sincos+0x3af (inlined)
+	    7557ce371e7f __cos_fma+0x3af (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.365206:     250000 task-clock:ppp: 
+	    7557ce3712f9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce3712f9 __sin_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.382241:     250000 task-clock:ppp: 
+	    7557ce371d68 reduce_sincos+0x298 (inlined)
+	    7557ce371d68 __cos_fma+0x298 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.402001:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70569.421608:     250000 task-clock:ppp: 
+	    7557ce371fc2 do_cos+0x4f2 (inlined)
+	    7557ce371fc2 do_sincos+0x4f2 (inlined)
+	    7557ce371fc2 __cos_fma+0x4f2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.421654:     250000 task-clock:ppp: 
+	    7557ce371fc2 do_cos+0x4f2 (inlined)
+	    7557ce371fc2 do_sincos+0x4f2 (inlined)
+	    7557ce371fc2 __cos_fma+0x4f2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.441242:     250000 task-clock:ppp: 
+	    7557ce371807 do_cos+0x537 (inlined)
+	    7557ce371807 do_sincos+0x537 (inlined)
+	    7557ce371807 __sin_fma+0x537 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.460331:     250000 task-clock:ppp: 
+	    7557ce371af9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce371af9 __cos_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.480245:     250000 task-clock:ppp: 
+	    7557ce371d48 __cos_fma+0x278 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.499419:     250000 task-clock:ppp: 
+	    7557ce371e7f do_sin+0x3af (inlined)
+	    7557ce371e7f do_sincos+0x3af (inlined)
+	    7557ce371e7f __cos_fma+0x3af (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.518683:     250000 task-clock:ppp: 
+	    624e97f4c070 cos@plt+0x0 (/home/js/week02/t07/slow)
+
+slow    6385 70569.537873:     250000 task-clock:ppp: 
+	    7557ce37149c reduce_sincos+0x1cc (inlined)
+	    7557ce37149c __sin_fma+0x1cc (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.556922:     250000 task-clock:ppp: 
+	    7557ce3717e9 do_cos+0x519 (inlined)
+	    7557ce3717e9 do_sincos+0x519 (inlined)
+	    7557ce3717e9 __sin_fma+0x519 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.575894:     250000 task-clock:ppp: 
+	    7557ce371954 do_sin+0x684 (inlined)
+	    7557ce371954 do_sincos+0x684 (inlined)
+	    7557ce371954 __sin_fma+0x684 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.594587:     250000 task-clock:ppp: 
+	    7557ce3712f1 libc_feholdsetround_sse_ctx+0x21 (inlined)
+	    7557ce3712f1 __sin_fma+0x21 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.613210:     250000 task-clock:ppp: 
+	    7557ce371f80 do_cos+0x4b0 (inlined)
+	    7557ce371f80 do_sincos+0x4b0 (inlined)
+	    7557ce371f80 __cos_fma+0x4b0 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.631329:     250000 task-clock:ppp: 
+	    7557ce371e03 do_sin+0x333 (inlined)
+	    7557ce371e03 do_sincos+0x333 (inlined)
+	    7557ce371e03 __cos_fma+0x333 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.650035:     250000 task-clock:ppp: 
+	    624e97f4c090 sin@plt+0x0 (/home/js/week02/t07/slow)
+
+slow    6385 70569.667982:     250000 task-clock:ppp: 
+	    7557ce37134f __sin_fma+0x7f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70569.686690:     250000 task-clock:ppp: 
+	    7557ce371d68 reduce_sincos+0x298 (inlined)
+	    7557ce371d68 __cos_fma+0x298 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.705321:     250000 task-clock:ppp: 
+	    7557ce3717e9 do_cos+0x519 (inlined)
+	    7557ce3717e9 do_sincos+0x519 (inlined)
+	    7557ce3717e9 __sin_fma+0x519 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.705336:     250000 task-clock:ppp: 
+	    7557ce3717e9 do_cos+0x519 (inlined)
+	    7557ce3717e9 do_sincos+0x519 (inlined)
+	    7557ce3717e9 __sin_fma+0x519 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.723735:     250000 task-clock:ppp: 
+	    7557ce371e0b do_sin+0x33b (inlined)
+	    7557ce371e0b do_sincos+0x33b (inlined)
+	    7557ce371e0b __cos_fma+0x33b (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.741799:     250000 task-clock:ppp: 
+	    7557ce371c28 __cos_fma+0x158 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.760023:     250000 task-clock:ppp: 
+	    7557ce371460 __sin_fma+0x190 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.777676:     250000 task-clock:ppp: 
+	    7557ce37134f __sin_fma+0x7f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70569.794869:     250000 task-clock:ppp: 
+	    7557ce371ea4 do_sin+0x3d4 (inlined)
+	    7557ce371ea4 do_sincos+0x3d4 (inlined)
+	    7557ce371ea4 __cos_fma+0x3d4 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.812621:     250000 task-clock:ppp: 
+	    7557ce371fd1 do_sincos+0x501 (inlined)
+	    7557ce371fd1 __cos_fma+0x501 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.830236:     250000 task-clock:ppp: 
+	    7557ce371af9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce371af9 __cos_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.847384:     250000 task-clock:ppp: 
+	    7557ce3714df do_cos+0x20f (inlined)
+	    7557ce3714df do_sincos+0x20f (inlined)
+	    7557ce3714df __sin_fma+0x20f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.864138:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70569.880727:     250000 task-clock:ppp: 
+	    7557ce371c28 __cos_fma+0x158 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.897241:     250000 task-clock:ppp: 
+	    624e97f4c10a slow_computation+0x6a (inlined)
+	    624e97f4c10a main+0x6a (/home/js/week02/t07/slow)
+
+slow    6385 70569.913986:     250000 task-clock:ppp: 
+	    7557ce371e58 do_sin+0x388 (inlined)
+	    7557ce371e58 do_sincos+0x388 (inlined)
+	    7557ce371e58 __cos_fma+0x388 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.930110:     250000 task-clock:ppp: 
+	    7557ce371fb2 do_cos+0x4e2 (inlined)
+	    7557ce371fb2 do_sincos+0x4e2 (inlined)
+	    7557ce371fb2 __cos_fma+0x4e2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.930354:     250000 task-clock:ppp: 
+	    7557ce371822 do_cos+0x552 (inlined)
+	    7557ce371822 do_sincos+0x552 (inlined)
+	    7557ce371822 __sin_fma+0x552 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.946923:     250000 task-clock:ppp: 
+	    7557ce371af9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce371af9 __cos_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.963575:     250000 task-clock:ppp: 
+	    7557ce371c23 __cos_fma+0x153 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70569.979899:     250000 task-clock:ppp: 
+	    7557ce371795 do_cos+0x4c5 (inlined)
+	    7557ce371795 do_sincos+0x4c5 (inlined)
+	    7557ce371795 __sin_fma+0x4c5 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70569.995675:     250000 task-clock:ppp: 
+	    7557ce371c24 __cos_fma+0x154 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70570.011328:     250000 task-clock:ppp: 
+	    7557ce371965 do_sin+0x695 (inlined)
+	    7557ce371965 do_sincos+0x695 (inlined)
+	    7557ce371965 __sin_fma+0x695 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.011337:     250000 task-clock:ppp: 
+	    7557ce371965 do_sin+0x695 (inlined)
+	    7557ce371965 do_sincos+0x695 (inlined)
+	    7557ce371965 __sin_fma+0x695 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.027536:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70570.042921:     250000 task-clock:ppp: 
+	    7557ce371c23 __cos_fma+0x153 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.058631:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70570.073821:     250000 task-clock:ppp: 
+	    7557ce371c1f __cos_fma+0x14f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.088666:     250000 task-clock:ppp: 
+	    7557ce371e03 do_sin+0x333 (inlined)
+	    7557ce371e03 do_sincos+0x333 (inlined)
+	    7557ce371e03 __cos_fma+0x333 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.103820:     250000 task-clock:ppp: 
+	    7557ce371482 reduce_sincos+0x1b2 (inlined)
+	    7557ce371482 __sin_fma+0x1b2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.118519:     250000 task-clock:ppp: 
+	    7557ce3715ca do_sincos+0x2fa (inlined)
+	    7557ce3715ca __sin_fma+0x2fa (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.133685:     250000 task-clock:ppp: 
+	    7557ce37153c do_sin+0x26c (inlined)
+	    7557ce37153c do_sincos+0x26c (inlined)
+	    7557ce37153c __sin_fma+0x26c (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.149308:     250000 task-clock:ppp: 
+	    7557ce371f77 do_cos+0x4a7 (inlined)
+	    7557ce371f77 do_sincos+0x4a7 (inlined)
+	    7557ce371f77 __cos_fma+0x4a7 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.163553:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70570.177688:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70570.177698:     250000 task-clock:ppp: 
+	    624e97f4c132 slow_computation+0x92 (inlined)
+	    624e97f4c132 main+0x92 (/home/js/week02/t07/slow)
+
+slow    6385 70570.192832:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70570.207418:     250000 task-clock:ppp: 
+	    7557ce371d81 reduce_sincos+0x2b1 (inlined)
+	    7557ce371d81 __cos_fma+0x2b1 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.221974:     250000 task-clock:ppp: 
+	    7557ce37134f __sin_fma+0x7f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70570.236229:     250000 task-clock:ppp: 
+	    7557ce371c23 __cos_fma+0x153 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.250389:     250000 task-clock:ppp: 
+	    7557ce371af9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce371af9 __cos_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.264198:     250000 task-clock:ppp: 
+	    7557ce371d81 reduce_sincos+0x2b1 (inlined)
+	    7557ce371d81 __cos_fma+0x2b1 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.277478:     250000 task-clock:ppp: 
+	    7557ce3714df do_cos+0x20f (inlined)
+	    7557ce3714df do_sincos+0x20f (inlined)
+	    7557ce3714df __sin_fma+0x20f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.290701:     250000 task-clock:ppp: 
+	    7557ce371dd3 do_sincos+0x303 (inlined)
+	    7557ce371dd3 __cos_fma+0x303 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.300967:     250000 task-clock:ppp: 
+	    7557ce371fd1 do_sincos+0x501 (inlined)
+	    7557ce371fd1 __cos_fma+0x501 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.301075:     250000 task-clock:ppp: 
+	    7557ce37134f __sin_fma+0x7f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70570.301582:     250000 task-clock:ppp: 
+	    7557ce371992 do_sin+0x6c2 (inlined)
+	    7557ce371992 do_sincos+0x6c2 (inlined)
+	    7557ce371992 __sin_fma+0x6c2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.301858:     250000 task-clock:ppp: 
+	ffffffff9228447a [unknown] ([unknown])
+	ffffffff92283337 [unknown] ([unknown])
+	ffffffff90c00f8b [unknown] ([unknown])
+	    7557ce3715af do_sin+0x2df (inlined)
+	    7557ce3715af do_sincos+0x2df (inlined)
+	    7557ce3715af __sin_fma+0x2df (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.302377:     250000 task-clock:ppp: 
+	    7557ce371c24 __cos_fma+0x154 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+
+slow    6385 70570.310854:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70570.311021:     250000 task-clock:ppp: 
+	    7557ce371fc7 do_cos+0x4f7 (inlined)
+	    7557ce371fc7 do_sincos+0x4f7 (inlined)
+	    7557ce371fc7 __cos_fma+0x4f7 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.311414:     250000 task-clock:ppp: 
+	    7557ce37150b do_sin+0x23b (inlined)
+	    7557ce37150b do_sincos+0x23b (inlined)
+	    7557ce37150b __sin_fma+0x23b (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.311728:     250000 task-clock:ppp: 
+	    7557ce3714f0 do_sincos+0x220 (inlined)
+	    7557ce3714f0 __sin_fma+0x220 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.316281:     250000 task-clock:ppp: 
+	    7557ce371af1 libc_feholdsetround_sse_ctx+0x21 (inlined)
+	    7557ce371af1 __cos_fma+0x21 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.316833:     250000 task-clock:ppp: 
+	    7557ce371827 do_cos+0x557 (inlined)
+	    7557ce371827 do_sincos+0x557 (inlined)
+	    7557ce371827 __sin_fma+0x557 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c116 slow_computation+0x76 (inlined)
+	    624e97f4c116 main+0x76 (/home/js/week02/t07/slow)
+
+slow    6385 70570.325114:     250000 task-clock:ppp: 
+	    7557ce371ea4 do_sin+0x3d4 (inlined)
+	    7557ce371ea4 do_sincos+0x3d4 (inlined)
+	    7557ce371ea4 __cos_fma+0x3d4 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.325258:     250000 task-clock:ppp: 
+	    7557ce371dff do_sin+0x32f (inlined)
+	    7557ce371dff do_sincos+0x32f (inlined)
+	    7557ce371dff __cos_fma+0x32f (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.325585:     250000 task-clock:ppp: 
+	    7557ce371c28 __cos_fma+0x158 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.332471:     250000 task-clock:ppp: 
+	    7557ce371af9 libc_feholdsetround_sse_ctx+0x29 (inlined)
+	    7557ce371af9 __cos_fma+0x29 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.332608:     250000 task-clock:ppp: 
+	    7557ce371b0a libc_feholdsetround_sse_ctx+0x3a (inlined)
+	    7557ce371b0a __cos_fma+0x3a (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.332873:     250000 task-clock:ppp: 
+	    624e97f4c090 sin@plt+0x0 (/home/js/week02/t07/slow)
+
+slow    6385 70570.340077:     250000 task-clock:ppp: 
+	    7557ce371fcd do_cos+0x4fd (inlined)
+	    7557ce371fcd do_sincos+0x4fd (inlined)
+	    7557ce371fcd __cos_fma+0x4fd (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.340441:     250000 task-clock:ppp: 
+	ffffffff9228447a [unknown] ([unknown])
+	ffffffff92283337 [unknown] ([unknown])
+	ffffffff90c00f8b [unknown] ([unknown])
+	    7557ce371e3c do_sin+0x36c (inlined)
+	    7557ce371e3c do_sincos+0x36c (inlined)
+	    7557ce371e3c __cos_fma+0x36c (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.341499:     250000 task-clock:ppp: 
+	    7557ce371fb2 do_cos+0x4e2 (inlined)
+	    7557ce371fb2 do_sincos+0x4e2 (inlined)
+	    7557ce371fb2 __cos_fma+0x4e2 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.348463:     250000 task-clock:ppp: 
+	    7557ce371f89 do_cos+0x4b9 (inlined)
+	    7557ce371f89 do_sincos+0x4b9 (inlined)
+	    7557ce371f89 __cos_fma+0x4b9 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
+slow    6385 70570.348820:     250000 task-clock:ppp: 
+	    624e97f4c13c slow_computation+0x9c (inlined)
+	    624e97f4c13c main+0x9c (/home/js/week02/t07/slow)
+
+slow    6385 70570.349144:     250000 task-clock:ppp: 
+	    7557ce371f80 do_cos+0x4b0 (inlined)
+	    7557ce371f80 do_sincos+0x4b0 (inlined)
+	    7557ce371f80 __cos_fma+0x4b0 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    624e97f4c12c slow_computation+0x8c (inlined)
+	    624e97f4c12c main+0x8c (/home/js/week02/t07/slow)
+
