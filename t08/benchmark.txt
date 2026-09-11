@@ -1,0 +1,11 @@
+Benchmark 1: find testdata -type f -name "*.txt"
+  Time (mean ± σ):       2.7 ms ±   0.3 ms    [User: 1.6 ms, System: 1.1 ms]
+  Range (min … max):     2.2 ms …   7.4 ms    628 runs
+ 
+Benchmark 2: fdfind -t f "\.txt$" testdata
+  Time (mean ± σ):       7.2 ms ±   1.2 ms    [User: 3.3 ms, System: 4.8 ms]
+  Range (min … max):     5.5 ms …  20.1 ms    257 runs
+ 
+Summary
+  find testdata -type f -name "*.txt" ran
+    2.68 ± 0.55 times faster than fdfind -t f "\.txt$" testdata
